@@ -1,0 +1,12 @@
+{%extends "layout.html"%}
+{%block content%}
+
+<link rel="stylesheet" href={{cdn_css[0] | safe}} type="text/css" />
+<script type="text/javascript" src={{cdn_js[0] | safe}}></script>
+
+<div class="plot">
+    
+</div>
+{{script1 | safe}}
+{{div1 | safe}}
+{%endblock%}
